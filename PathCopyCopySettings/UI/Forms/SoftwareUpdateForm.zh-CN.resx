@@ -298,7 +298,7 @@
     <value>$this</value>
   </data>
   <data name="CloseBtn.Text" xml:space="preserve">
-    <value>&amp;关闭</value>
+    <value>关闭(&amp;C)</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Path Copy Copy 有新更新</value>
@@ -352,7 +352,7 @@
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="IgnoreUpdateBtn.Text" xml:space="preserve">
-    <value>&amp;忽略此版本更新</value>
+    <value>忽略此版本更新(&amp;I)</value>
   </data>
   <data name="&gt;&gt;SoftwareUpdateTitleLbl.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
