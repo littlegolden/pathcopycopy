@@ -136,7 +136,7 @@
     <value>4</value>
   </data>
   <data name="ApplyBtn.Text" xml:space="preserve">
-    <value>&amp;Apply</value>
+    <value>应用(&amp;A)</value>
   </data>
   <metadata name="MainToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>769, 18</value>
@@ -169,7 +169,7 @@
     <value>2</value>
   </data>
   <data name="OKBtn.Text" xml:space="preserve">
-    <value>OK</value>
+    <value>确定</value>
   </data>
   <data name="OKBtn.ToolTip" xml:space="preserve">
     <value>保存设置并关闭窗口</value>
@@ -199,7 +199,7 @@
     <value>3</value>
   </data>
   <data name="CancelBtn.Text" xml:space="preserve">
-    <value>&amp;Cancel</value>
+    <value>取消(&amp;C)</value>
   </data>
   <data name="CancelBtn.ToolTip" xml:space="preserve">
     <value>取消更改并关闭窗口</value>
@@ -232,7 +232,7 @@
     <value>10</value>
   </data>
   <data name="DuplicatePipelinePluginBtn.Text" xml:space="preserve">
-    <value>Dup&amp;licate</value>
+    <value>创建副本(&amp;L)</value>
   </data>
   <data name="DuplicatePipelinePluginBtn.ToolTip" xml:space="preserve">
     <value>创建选中自定义命令的副本</value>
@@ -286,7 +286,7 @@
     <value>8</value>
   </data>
   <data name="AddSeparatorBtn.Text" xml:space="preserve">
-    <value>&amp;分隔线</value>
+    <value>添加分隔线(&amp;S)</value>
   </data>
   <data name="AddSeparatorBtn.ToolTip" xml:space="preserve">
     <value>在选中的命令下方创建分隔线</value>
@@ -316,7 +316,7 @@
     <value>14</value>
   </data>
   <data name="ImportPipelinePluginsBtn.Text" xml:space="preserve">
-    <value>&amp;Import...</value>
+    <value>导入(&amp;I)...</value>
   </data>
   <data name="ImportPipelinePluginsBtn.ToolTip" xml:space="preserve">
     <value>从硬盘文件导入自定义命令</value>
@@ -346,7 +346,7 @@
     <value>13</value>
   </data>
   <data name="ExportPipelinePluginsBtn.Text" xml:space="preserve">
-    <value>导&amp;出...</value>
+    <value>导出(&amp;P)...</value>
   </data>
   <data name="ExportPipelinePluginsBtn.ToolTip" xml:space="preserve">
     <value>将选定的自定义命令导出到磁盘中</value>
@@ -400,7 +400,7 @@
     <value>11</value>
   </data>
   <data name="RemovePluginBtn.Text" xml:space="preserve">
-    <value>&amp;Remove</value>
+    <value>删除(&amp;R)</value>
   </data>
   <data name="RemovePluginBtn.ToolTip" xml:space="preserve">
     <value>删除选中的自定义命令或分隔线</value>
@@ -430,7 +430,7 @@
     <value>9</value>
   </data>
   <data name="EditPipelinePluginBtn.Text" xml:space="preserve">
-    <value>&amp;编辑...</value>
+    <value>编辑(&amp;E)...</value>
   </data>
   <data name="EditPipelinePluginBtn.ToolTip" xml:space="preserve">
     <value>编辑选中的自定义命令</value>
@@ -460,7 +460,7 @@
     <value>7</value>
   </data>
   <data name="AddPipelinePluginBtn.Text" xml:space="preserve">
-    <value>&amp;新建...</value>
+    <value>新建(&amp;N)...</value>
   </data>
   <data name="AddPipelinePluginBtn.ToolTip" xml:space="preserve">
     <value>创建一个新的自定义命令</value>
@@ -514,7 +514,7 @@
     <value>5</value>
   </data>
   <data name="MovePluginDownBtn.Text" xml:space="preserve">
-    <value>&amp;下移</value>
+    <value>下移(&amp;D)</value>
   </data>
   <data name="MovePluginDownBtn.ToolTip" xml:space="preserve">
     <value>下移选中的命令</value>
@@ -544,7 +544,7 @@
     <value>4</value>
   </data>
   <data name="MovePluginUpBtn.Text" xml:space="preserve">
-    <value>&amp;上移</value>
+    <value>上移(&amp;U)</value>
   </data>
   <data name="MovePluginUpBtn.ToolTip" xml:space="preserve">
     <value>上移选中的命令</value>
@@ -718,10 +718,10 @@
     <value>14</value>
   </data>
   <data name="RecursiveCopyChk.Text" xml:space="preserve">
-    <value>递归&amp;复制路径</value>
+    <value>递归复制路径(&amp;U)</value>
   </data>
   <data name="RecursiveCopyChk.ToolTip" xml:space="preserve">
-    <value>Recurse into subdirectories when copying paths</value>
+    <value>复制路径时递归其子目录内容</value>
   </data>
   <data name="&gt;&gt;RecursiveCopyChk.Name" xml:space="preserve">
     <value>RecursiveCopyChk</value>
@@ -781,7 +781,7 @@
     <value>19</value>
   </data>
   <data name="LanguageLbl.Text" xml:space="preserve">
-    <value>语&amp;言：</value>
+    <value>语言(&amp;G):</value>
   </data>
   <data name="&gt;&gt;LanguageLbl.Name" xml:space="preserve">
     <value>LanguageLbl</value>
@@ -808,7 +808,7 @@
     <value>15</value>
   </data>
   <data name="TrueLnkPathsChk.Text" xml:space="preserve">
-    <value>复制快捷&amp;方式 (.lnk) 文件本身的路径</value>
+    <value>复制快捷方式 (.lnk) 文件本身的路径(&amp;O)</value>
   </data>
   <data name="TrueLnkPathsChk.ToolTip" xml:space="preserve">
     <value>复制快捷方式 (.lnk) 文件的路径时，复制快捷方式文件本身的路径，而不是目标文件的路径。</value>
@@ -841,7 +841,7 @@
     <value>11</value>
   </data>
   <data name="UsePreviewModeInMainMenuChk.Text" xml:space="preserve">
-    <value>...以及在主&amp;菜单</value>
+    <value>...以及在主菜单(&amp;N)</value>
   </data>
   <data name="UsePreviewModeInMainMenuChk.ToolTip" xml:space="preserve">
     <value>在右键菜单中显示命令的预览</value>
@@ -871,7 +871,7 @@
     <value>5</value>
   </data>
   <data name="AppendSepForDirChk.Text" xml:space="preserve">
-    <value>为目录路径添加&amp;分隔符</value>
+    <value>为目录路径添加分隔符(&amp;E)</value>
   </data>
   <data name="AppendSepForDirChk.ToolTip" xml:space="preserve">
     <value>当复制目录路径时，在路径末尾添加一个分隔符（例如：\ 或 /）。</value>
@@ -901,10 +901,10 @@
     <value>7</value>
   </data>
   <data name="UseFQDNChk.Text" xml:space="preserve">
-    <value>Use &amp;fully-qualified domain names when copying UNC paths</value>
+    <value>复制 UNC 路径时使用绝对域名(&amp;F)</value>
   </data>
   <data name="UseFQDNChk.ToolTip" xml:space="preserve">
-    <value>Use fully-qualified domain names (e.g. FQDN) when copying UNC paths</value>
+    <value>复制 UNC 路径的时候使用完整的绝对域名 (FQDN)</value>
   </data>
   <data name="&gt;&gt;UseFQDNChk.Name" xml:space="preserve">
     <value>UseFQDNChk</value>
@@ -934,7 +934,7 @@
     <value>1</value>
   </data>
   <data name="AreQuotesOptionalChk.Text" xml:space="preserve">
-    <value>...仅当路径包含&amp;空格时</value>
+    <value>...仅当路径包含空格时(&amp;S)</value>
   </data>
   <data name="AreQuotesOptionalChk.ToolTip" xml:space="preserve">
     <value>是否在路径中包含空格时使用引号包围路径</value>
@@ -1030,7 +1030,7 @@
     <value>4</value>
   </data>
   <data name="EncodeURICharsChk.Text" xml:space="preserve">
-    <value>...以及所有无&amp;效的 URI 字符 (例 %xx)</value>
+    <value>...以及所有无效的 URI 字符 (例 %xx) (&amp;V)</value>
   </data>
   <data name="EncodeURICharsChk.ToolTip" xml:space="preserve">
     <value>将复制路径中所有无效的字符用百分比编码 ( %xx ) 代替。</value>
@@ -1060,7 +1060,7 @@
     <value>3</value>
   </data>
   <data name="EncodeURIWhitespaceChk.Text" xml:space="preserve">
-    <value>对&amp;空白字符使用百分比编码 (例 %20)</value>
+    <value>对空白字符使用百分比编码 (例 %20) (&amp;W)</value>
   </data>
   <data name="EncodeURIWhitespaceChk.ToolTip" xml:space="preserve">
     <value>用 %20 替换路径中的所有空白字符</value>
@@ -1090,7 +1090,7 @@
     <value>13</value>
   </data>
   <data name="CopyOnSameLineChk.Text" xml:space="preserve">
-    <value>将多&amp;个路径复制为同一行</value>
+    <value>将多个路径复制为同一行(&amp;T)</value>
   </data>
   <data name="CopyOnSameLineChk.ToolTip" xml:space="preserve">
     <value>当复制多个选定文件/文件夹的路径时，将它们全部复制在同一行（用空格隔开），而不是复制在不同的行上（用换行符隔开）</value>
@@ -1120,7 +1120,7 @@
     <value>12</value>
   </data>
   <data name="DropRedundantWordsChk.Text" xml:space="preserve">
-    <value>去掉&amp;子菜单中 "复制" 或 "长/短" 等多余词语</value>
+    <value>去掉子菜单中 "复制" 或 "长/短" 等多余词语 (&amp;R)</value>
   </data>
   <data name="DropRedundantWordsChk.ToolTip" xml:space="preserve">
     <value>在子菜单中显示命令时，去掉一些多余的词语</value>
@@ -1150,7 +1150,7 @@
     <value>10</value>
   </data>
   <data name="UsePreviewModeChk.Text" xml:space="preserve">
-    <value>右键菜单直接显示命令的&amp;输出结果</value>
+    <value>右键菜单直接显示命令的输出结果(&amp;P)</value>
   </data>
   <data name="UsePreviewModeChk.ToolTip" xml:space="preserve">
     <value>打开右键菜单时，直接显示复制的路径，不显示命令名。</value>
@@ -1180,7 +1180,7 @@
     <value>9</value>
   </data>
   <data name="UseIconForSubmenuChk.Text" xml:space="preserve">
-    <value>显示&amp;右键菜单子菜单的图标</value>
+    <value>显示右键菜单子菜单的图标(&amp;I)</value>
   </data>
   <data name="UseIconForSubmenuChk.ToolTip" xml:space="preserve">
     <value>在右键菜单的子菜单前添加 Path Copy Copy 图标</value>
@@ -1240,7 +1240,7 @@
     <value>18</value>
   </data>
   <data name="EnableSoftwareUpdateChk.Text" xml:space="preserve">
-    <value>自&amp;动检查更新</value>
+    <value>自动检查更新(&amp;Y)</value>
   </data>
   <data name="EnableSoftwareUpdateChk.ToolTip" xml:space="preserve">
     <value>自动检查 Path Copy Copy 的新版本，并在其发布时提供</value>
@@ -1270,7 +1270,7 @@
     <value>8</value>
   </data>
   <data name="AlwaysShowSubmenuChk.Text" xml:space="preserve">
-    <value>总&amp;是显示子菜单</value>
+    <value>总是显示子菜单(&amp;L)</value>
   </data>
   <data name="AlwaysShowSubmenuChk.ToolTip" xml:space="preserve">
     <value>始终在 "右键菜单" 中显示 "Path Copy Copy " 子菜单（否则，只有在按住 Shift 键打开右键菜单时才显示）</value>
@@ -1300,7 +1300,7 @@
     <value>6</value>
   </data>
   <data name="HiddenSharesChk.Text" xml:space="preserve">
-    <value>复制 UNC 路径时使用&amp;隐藏共享</value>
+    <value>复制 UNC 路径时使用隐藏共享(&amp;H)</value>
   </data>
   <data name="HiddenSharesChk.ToolTip" xml:space="preserve">
     <value>Consider hidden shares (shares ending with the $ character, including administrative shares like \\server\C$) when copying UNC paths</value>
@@ -1330,7 +1330,7 @@
     <value>0</value>
   </data>
   <data name="AddQuotesChk.Text" xml:space="preserve">
-    <value>Add &amp;quotes around copied paths</value>
+    <value>在复制后的路径两侧添加引号(&amp;Q)</value>
   </data>
   <data name="AddQuotesChk.ToolTip" xml:space="preserve">
     <value>将所有复制的路径用引号 ( " )括起来</value>
@@ -1360,7 +1360,7 @@
     <value>0</value>
   </data>
   <data name="MiscOptionsPage.Text" xml:space="preserve">
-    <value>Options</value>
+    <value>选项</value>
   </data>
   <data name="&gt;&gt;MiscOptionsPage.Name" xml:space="preserve">
     <value>MiscOptionsPage</value>
@@ -1537,7 +1537,7 @@
     <value>4</value>
   </data>
   <data name="LicenseExplanationLbl.Text" xml:space="preserve">
-    <value>Path Copy Copy 是一款基于 MIT 协议的免费软件。详情信息请访问</value>
+    <value>Path Copy Copy 是一款 MIT 协议发行的免费软件。详情信息请访问</value>
   </data>
   <data name="LicenseExplanationLbl.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>BottomCenter</value>
@@ -1570,7 +1570,7 @@
     <value>5</value>
   </data>
   <data name="LicenseTxtLinkLbl.Text" xml:space="preserve">
-    <value>LICENSE</value>
+    <value>LICENSE (授权许可文件)</value>
   </data>
   <data name="LicenseTxtLinkLbl.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>TopCenter</value>
@@ -1742,7 +1742,7 @@
     <value>1</value>
   </data>
   <data name="ExportUserSettingsBtn.Text" xml:space="preserve">
-    <value>导&amp;出设置...</value>
+    <value>导出设置(&amp;X)...</value>
   </data>
   <data name="ExportUserSettingsBtn.ToolTip" xml:space="preserve">
     <value>导出所有设置到本地磁盘</value>
