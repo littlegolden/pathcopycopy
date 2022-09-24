@@ -28,7 +28,7 @@ STRINGTABLE
 BEGIN
     IDS_PROJNAME            "PathCopyCopy"
     IDS_PATH_COPY_MENU_ITEM "Copie du c&hemin"
-    IDS_PATH_COPY_HINT      "Copie le(s) chemin(s) du/des fichiers sélectionnés dans divers formats."
+    IDS_PATH_COPY_HINT      "Copie le(s) chemin(s) du/des fichiers sÃ©lectionnÃ©s dans divers formats."
     IDS_SAMPLE_PLUGIN_DESCRIPTION "Copier le chemin exemple"
     IDS_SAMPLE_PLUGIN_HINT  "Copies the path of the given file using the sample plugin."
     IDS_SHORT_NAME_PLUGIN_DESCRIPTION "Copier le no&m court"
@@ -49,41 +49,41 @@ BEGIN
                             "Copie le chemin long du fichier/dossier dans le presse-papier."
     IDS_LONG_UNC_PATH_PLUGIN_DESCRIPTION "Copier le chemin &UNC long"
     IDS_LONG_UNC_PATH_PLUGIN_HINT 
-                            "Copie le chemin UNC long (partage réseau) du fichier/dossier dans le presse-papier, s'il possède un tel chemin; sinon, copie son chemin long."
+                            "Copie le chemin UNC long (partage rÃ©seau) du fichier/dossier dans le presse-papier, s'il possÃ¨de un tel chemin; sinon, copie son chemin long."
     IDS_INTERNET_PATH_PLUGIN_DESCRIPTION 
                             "Copier le chemin en format &internet"
     IDS_INTERNET_PATH_PLUGIN_HINT 
                             "Copie le chemin du fichier/dossier dans le presse-papier en format lien internet file://."
     IDS_UNIX_PATH_PLUGIN_DESCRIPTION "Copier le chemin Uni&x"
     IDS_UNIX_PATH_PLUGIN_HINT 
-                            "Copie le chemin du fichier/dossier dans le presse-papier, remplaçant les barres obliques inverses en barres obliques."
+                            "Copie le chemin du fichier/dossier dans le presse-papier, remplaÃ§ant les barres obliques inverses en barres obliques."
     IDS_CYGWIN_PATH_PLUGIN_DESCRIPTION "Copier le chemin Cy&gwin"
     IDS_CYGWIN_PATH_PLUGIN_HINT 
                             "Copie le chemin du fichier/dossier dans le presse-papier dans un format reconnu par les outils Cygwin."
     IDS_DEFAULT_PLUGIN_DESCRIPTION "Copier le &chemin du fichier/dossier"
     IDS_SHORT_UNC_PATH_PLUGIN_DESCRIPTION "Copier le chemin UN&C court"
     IDS_SHORT_UNC_PATH_PLUGIN_HINT 
-                            "Copie le chemin UNC court (partage réseau) du fichier/dossier dans le presse-papier, s'il possède un tel chemin; sinon, copie son chemin court."
+                            "Copie le chemin UNC court (partage rÃ©seau) du fichier/dossier dans le presse-papier, s'il possÃ¨de un tel chemin; sinon, copie son chemin court."
 END
 
 STRINGTABLE
 BEGIN
     IDS_LONG_FOLDER_PLUGIN_DESCRIPTION "Copier le chemin long du &parent"
     IDS_LONG_FOLDER_PLUGIN_HINT 
-                            "Copie le chemin long du répertoire parent du fichier/dossier dans le presse-papier."
+                            "Copie le chemin long du rÃ©pertoire parent du fichier/dossier dans le presse-papier."
     IDS_SHORT_FOLDER_PLUGIN_DESCRIPTION "Copier le chemin court du p&arent"
     IDS_SHORT_FOLDER_PLUGIN_HINT 
-                            "Copie le chemin court du répertoire parent du fichier/dossier dans le presse-papier."
+                            "Copie le chemin court du rÃ©pertoire parent du fichier/dossier dans le presse-papier."
     IDS_SHORT_UNC_FOLDER_PLUGIN_DESCRIPTION 
                             "Copier le chemin UNC cou&rt du parent"
     IDS_SHORT_UNC_FOLDER_PLUGIN_HINT 
-                            "Copie le chemin UNC court (partage réseau) du répertoire parent du fichier/dossier dans le presse-papier, s'il possède un tel chemin; sinon, copie son chemin court."
+                            "Copie le chemin UNC court (partage rÃ©seau) du rÃ©pertoire parent du fichier/dossier dans le presse-papier, s'il possÃ¨de un tel chemin; sinon, copie son chemin court."
     IDS_LONG_UNC_FOLDER_PLUGIN_DESCRIPTION 
                             "Copier le chemin UNC long du paren&t"
     IDS_LONG_UNC_FOLDER_PLUGIN_HINT 
-                            "Copie le chemin UNC long (partage réseau) du répertoire parent du fichier/dossier dans le presse-papier, s'il possède un tel chemin; sinon, copie son chemin long."
-    IDS_PCC_SETTINGS_DESCRIPTION "Paramètres..."
-    IDS_PCC_SETTINGS_HINT   "Ouvre la fenêtre permettant de paramétrer cet outil."
+                            "Copie le chemin UNC long (partage rÃ©seau) du rÃ©pertoire parent du fichier/dossier dans le presse-papier, s'il possÃ¨de un tel chemin; sinon, copie son chemin long."
+    IDS_PCC_SETTINGS_DESCRIPTION "ParamÃ¨tres..."
+    IDS_PCC_SETTINGS_HINT   "Ouvre la fenÃªtre permettant de paramÃ©trer cet outil."
     IDS_SETTINGS_APP_FILE_NAME "PathCopyCopySettings.exe"
     IDS_REDUNDANT_WORD_COPY "Copier le "
     IDS_ANDROGYNOUS_NAME_PLUGIN_DESCRIPTION "Copier le &nom"
@@ -105,13 +105,13 @@ BEGIN
     IDS_MSYS_PATH_PLUGIN_DESCRIPTION "Copier le chemin MS&YS/MSYS2"
     IDS_MSYS_PATH_PLUGIN_HINT 
                             "Copie le chemin du fichier/dossier dans le presse-papier en format MSYS/MSYS2."
-    IDS_INVALIDPIPELINE     "<< Commande personnalisée invalide >>"
+    IDS_INVALIDPIPELINE     "<< Commande personnalisÃ©e invalide >>"
     IDS_INVALIDPIPELINE_LOOP_DETECTED 
-                            "<< Boucle détectée dans les éléments de la commande personnalisée >>"
+                            "<< Boucle dÃ©tectÃ©e dans les Ã©lÃ©ments de la commande personnalisÃ©e >>"
     IDS_INVALIDPIPELINE_POSSIBLE_DOWNGRADE 
-                            "<< Élément invalide dans la commande personnalisée (rétrogradation de version possible) >>"
+                            "<< Ã‰lÃ©ment invalide dans la commande personnalisÃ©e (rÃ©trogradation de version possible) >>"
     IDS_INVALIDPIPELINE_BASE_COMMAND_NOT_FOUND 
-                            "<< Commande de base non-trouvée >>"
+                            "<< Commande de base non-trouvÃ©e >>"
 END
 
 #endif    // English (United States) resources
@@ -126,7 +126,7 @@ LANGUAGE LANG_FRENCH, SUBLANG_FRENCH_CANADIAN
 #pragma code_page(1252)
 
 /////////////////////////////////////////////////////////////////////////////
-// Chinese (Simplified, PRC) resources
+// Chinese (Simplified) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
 LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
@@ -161,7 +161,7 @@ END
 /////////////////////////////////////////////////////////////////////////////
 
 
-#endif    // Chinese (Simplified, PRC) resources
+#endif    // Chinese (Simplified) resources
 /////////////////////////////////////////////////////////////////////////////
 
 
