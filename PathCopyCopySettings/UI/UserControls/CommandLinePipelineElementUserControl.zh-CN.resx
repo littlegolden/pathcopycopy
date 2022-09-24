@@ -132,7 +132,7 @@
     <value>CmdLineToolTip</value>
   </data>
   <data name="ArgumentsLbl.Text" xml:space="preserve">
-    <value>&amp;参数：</value>
+    <value>参数(&amp;A):</value>
   </data>
   <data name="&gt;&gt;ArgumentsLbl.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -171,7 +171,7 @@
     <value>要传递给可执行文件的参数。包括 %FILES%，以替换为文件路径，否则将附加路径。</value>
   </data>
   <data name="UseFilelistChk.Text" xml:space="preserve">
-    <value>Use &amp;filelist</value>
+    <value>使用列表文件(&amp;F)</value>
   </data>
   <data name="ArgumentsLbl.Location" type="System.Drawing.Point, System.Drawing">
     <value>-3, 31</value>
