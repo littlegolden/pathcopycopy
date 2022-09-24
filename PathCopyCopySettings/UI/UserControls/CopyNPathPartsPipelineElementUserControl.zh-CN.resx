@@ -177,13 +177,13 @@
     <value>3</value>
   </data>
   <data name="NumPartsTxt.ToolTip" xml:space="preserve">
-    <value>要复制路径的什么部分</value>
+    <value>要复制路径的多少部分</value>
   </data>
   <data name="CopyTheNLbl.Text" xml:space="preserve">
-    <value>&amp;复制</value>
+    <value>(&amp;C)复制路径的</value>
   </data>
   <data name="PathPartsLbl.Text" xml:space="preserve">
-    <value>路径的部分</value>
+    <value>部分</value>
   </data>
   <data name="FirstLastCombo.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
