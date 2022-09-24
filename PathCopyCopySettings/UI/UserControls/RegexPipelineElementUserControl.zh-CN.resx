@@ -127,7 +127,7 @@
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="ReplaceLbl.Text" xml:space="preserve">
-    <value>&amp;替换表达式：</value>
+    <value>替换表达式(&amp;R)</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="ReplaceTxt.Location" type="System.Drawing.Point, System.Drawing">
@@ -169,7 +169,7 @@
     <value>是否在查找/替换时忽略大小写</value>
   </data>
   <data name="FindLbl.Text" xml:space="preserve">
-    <value>正则&amp;表达式：</value>
+    <value>正则表达式(&amp;X):</value>
   </data>
   <data name="IgnoreCaseChk.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -310,10 +310,10 @@
     <value>PathCopyCopy.Settings.UI.UserControls.PipelineElementUserControl, PathCopyCopySettings, Version=19.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="IgnoreCaseChk.Text" xml:space="preserve">
-    <value>&amp;忽略大小写</value>
+    <value>忽略大小写(&amp;I)</value>
   </data>
   <data name="TestBtn.Text" xml:space="preserve">
-    <value>&amp;测试...</value>
+    <value>测试(&amp;T)...</value>
   </data>
   <metadata name="RegexToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
