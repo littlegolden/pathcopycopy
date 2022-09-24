@@ -1273,7 +1273,7 @@
     <value>总是显示子菜单(&amp;L)</value>
   </data>
   <data name="AlwaysShowSubmenuChk.ToolTip" xml:space="preserve">
-    <value>始终在 "右键菜单" 中显示 "Path Copy Copy " 子菜单（否则，只有在按住 Shift 键打开右键菜单时才显示）</value>
+    <value>始终在右键菜单中显示“Path Copy Copy”子菜单（否则，只有在按住 Shift 键打开右键菜单时才显示）</value>
   </data>
   <data name="&gt;&gt;AlwaysShowSubmenuChk.Name" xml:space="preserve">
     <value>AlwaysShowSubmenuChk</value>
@@ -1537,7 +1537,7 @@
     <value>4</value>
   </data>
   <data name="LicenseExplanationLbl.Text" xml:space="preserve">
-    <value>Path Copy Copy 是一款 MIT 协议发行的免费软件。详情信息请访问</value>
+    <value>Path Copy Copy 是一款依 MIT 协议发行的免费软件。详情请访问</value>
   </data>
   <data name="LicenseExplanationLbl.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>BottomCenter</value>
