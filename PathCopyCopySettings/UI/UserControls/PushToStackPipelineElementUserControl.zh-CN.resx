@@ -159,7 +159,7 @@
     <value>1</value>
   </data>
   <data name="EntirePathRadio.Text" xml:space="preserve">
-    <value>&amp;整个路径</value>
+    <value>整个路径(&amp;E)</value>
   </data>
   <metadata name="PushToStackToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
@@ -192,7 +192,7 @@
     <value>2</value>
   </data>
   <data name="RangeRadio.Text" xml:space="preserve">
-    <value>&amp;位置间的路径上所有内容</value>
+    <value>位置间的路径上所有内容(&amp;P)</value>
   </data>
   <data name="RangeRadio.ToolTip" xml:space="preserve">
     <value>Push part of the path to the stack, as defined by a range of characters</value>
@@ -309,7 +309,7 @@
     <value>3</value>
   </data>
   <data name="RegexRadio.Text" xml:space="preserve">
-    <value>&amp;正则表达式匹配的第一个内容</value>
+    <value>正则表达式匹配的第一个内容(&amp;R)</value>
   </data>
   <data name="RegexRadio.ToolTip" xml:space="preserve">
     <value>将正则表达式的第一个匹配项入栈</value>
@@ -340,7 +340,7 @@
     <value>8</value>
   </data>
   <data name="RegexTxt.ToolTip" xml:space="preserve">
-    <value>Regular expression to use to locate the part of the path to push to the stack</value>
+    <value>正则表达式，用于确定路径中要推入堆栈的部分</value>
   </data>
   <data name="&gt;&gt;RegexTxt.Name" xml:space="preserve">
     <value>RegexTxt</value>
@@ -367,10 +367,10 @@
     <value>12</value>
   </data>
   <data name="IgnoreCaseChk.Text" xml:space="preserve">
-    <value>&amp;忽略大小写</value>
+    <value>忽略大小写(&amp;I)</value>
   </data>
   <data name="IgnoreCaseChk.ToolTip" xml:space="preserve">
-    <value>Whether to ignore case when using the regular expression to locate the part of the path to push to the stack</value>
+    <value>使用正则表达式确定路径中要推入堆栈的部分时，是否区分大小写</value>
   </data>
   <data name="&gt;&gt;IgnoreCaseChk.Name" xml:space="preserve">
     <value>IgnoreCaseChk</value>
@@ -397,7 +397,7 @@
     <value>13</value>
   </data>
   <data name="TestRegexBtn.Text" xml:space="preserve">
-    <value>&amp;测试...</value>
+    <value>测试(&amp;T)...</value>
   </data>
   <data name="TestRegexBtn.ToolTip" xml:space="preserve">
     <value>打开窗口测试正则表达式</value>
@@ -427,7 +427,7 @@
     <value>9</value>
   </data>
   <data name="UseGroupLbl1.Text" xml:space="preserve">
-    <value>(Use &amp;group</value>
+    <value>(&amp;G) (使用匹配分组</value>
   </data>
   <data name="&gt;&gt;UseGroupLbl1.Name" xml:space="preserve">
     <value>UseGroupLbl1</value>
@@ -511,7 +511,7 @@
     <value>4</value>
   </data>
   <data name="FixedStringRadio.Text" xml:space="preserve">
-    <value>The &amp;value</value>
+    <value>值(&amp;V)</value>
   </data>
   <data name="FixedStringRadio.ToolTip" xml:space="preserve">
     <value>将一个固定值入栈</value>
@@ -541,7 +541,7 @@
     <value>14</value>
   </data>
   <data name="FixedStringTxt.ToolTip" xml:space="preserve">
-    <value>Value to push to the stack</value>
+    <value>要推入堆栈的值</value>
   </data>
   <data name="&gt;&gt;FixedStringTxt.Name" xml:space="preserve">
     <value>FixedStringTxt</value>
