@@ -27,87 +27,87 @@ LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 STRINGTABLE
 BEGIN
     IDS_PROJNAME            "PathCopyCopy"
-    IDS_PATH_COPY_MENU_ITEM "&路径复制"
+    IDS_PATH_COPY_MENU_ITEM "复制路径(&P)"
     IDS_PATH_COPY_HINT      "将所选文件的路径以不同格式复制到剪贴板。"
-    IDS_SAMPLE_PLUGIN_DESCRIPTION "Copy Sample Path"
-    IDS_SAMPLE_PLUGIN_HINT  "Copies the path of the given file using the sample plugin."
-    IDS_SHORT_NAME_PLUGIN_DESCRIPTION "复制短&名称"
+    IDS_SAMPLE_PLUGIN_DESCRIPTION "复制「示例」路径"
+    IDS_SAMPLE_PLUGIN_HINT  "使用「示例」插件复制指定文件的路径。"
+    IDS_SHORT_NAME_PLUGIN_DESCRIPTION "复制短名称(&N)"
     IDS_SHORT_NAME_PLUGIN_HINT 
-                            "复制文件/文件夹的短名称到剪贴板（不含路径）。"
-    IDS_LONG_NAME_PLUGIN_DESCRIPTION "复制长&名称"
+                            "将文件/文件夹的短名称复制到剪贴板（不含路径）。"
+    IDS_LONG_NAME_PLUGIN_DESCRIPTION "复制长名称(&A)"
     IDS_LONG_NAME_PLUGIN_HINT 
-                            "复制文件/文件夹的长名称到剪贴板（不含路径）。"
-    IDS_SHORT_PATH_PLUGIN_DESCRIPTION "复制&短路径"
+                            "将文件/文件夹的长名称复制到剪贴板（不含路径）。"
+    IDS_SHORT_PATH_PLUGIN_DESCRIPTION "复制短路径(&S)"
     IDS_SHORT_PATH_PLUGIN_HINT 
-                            "复制文件/文件夹的短路径到剪切板。"
-    IDS_LONG_PATH_PLUGIN_DESCRIPTION "复制&长路径"
+                            "将文件/文件夹的短路径复制到剪切板。"
+    IDS_LONG_PATH_PLUGIN_DESCRIPTION "复制长路径(&L)"
 END
 
 STRINGTABLE
 BEGIN
     IDS_LONG_PATH_PLUGIN_HINT 
-                            "复制文件/文件夹的长路径到剪切板。"
+                            "将文件/文件夹的长路径复制到剪切板。"
     IDS_LONG_UNC_PATH_PLUGIN_DESCRIPTION "复制长 &UNC 路径"
     IDS_LONG_UNC_PATH_PLUGIN_HINT 
-                            "复制文件/文件夹的长 UNC（网络共享）路径到剪切板。若不存在网络路径，则复制长路径。"
-    IDS_INTERNET_PATH_PLUGIN_DESCRIPTION "复制&互联网路径"
+                            "将文件/文件夹的长 UNC（网络共享）路径复制到剪切板。若不存在网络路径，则复制长路径。"
+    IDS_INTERNET_PATH_PLUGIN_DESCRIPTION "复制互联网路径(&I)"
     IDS_INTERNET_PATH_PLUGIN_HINT 
-                            "复制文件/文件夹的 URI 格式路径到剪切板。"
+                            "将文件/文件夹的 URI 格式路径复制到剪切板。"
     IDS_UNIX_PATH_PLUGIN_DESCRIPTION "复制 Uni&x 路径"
     IDS_UNIX_PATH_PLUGIN_HINT 
-                            "复制文件/文件夹的路径到剪切板，使用正斜杠代替反斜杠。"
+                            "将文件/文件夹的路径复制到剪切板，使用正斜杠代替反斜杠。"
     IDS_CYGWIN_PATH_PLUGIN_DESCRIPTION "复制 Cy&gwin 路径"
     IDS_CYGWIN_PATH_PLUGIN_HINT 
-                            "复制文件/文件夹的路径到剪切板，使用 Cygwin 工具可识别的格式。"
+                            "将文件/文件夹的路径复制到剪切板，使用 Cygwin 工具可识别的格式。"
     IDS_DEFAULT_PLUGIN_DESCRIPTION "复制文件/文件夹&路径"
     IDS_SHORT_UNC_PATH_PLUGIN_DESCRIPTION "复制短 UN&C 路径"
     IDS_SHORT_UNC_PATH_PLUGIN_HINT 
-                            "复制文件/文件夹的短 UNC（网络共享）路径到剪切板。若不存在网络路径，则复制短路径。"
+                            "将文件/文件夹的短 UNC（网络共享）路径复制到剪切板。若不存在网络路径，则复制短路径。"
 END
 
 STRINGTABLE
 BEGIN
-    IDS_LONG_FOLDER_PLUGIN_DESCRIPTION "复制父&目录长路径"
+    IDS_LONG_FOLDER_PLUGIN_DESCRIPTION "复制上级目录长路径(&F)"
     IDS_LONG_FOLDER_PLUGIN_HINT 
-                            "复制文件/文件夹的父目录的长路径到剪切板。"
-    IDS_SHORT_FOLDER_PLUGIN_DESCRIPTION "复制父&目录短路径"
+                            "将文件/文件夹上级目录的长路径复制到剪切板。"
+    IDS_SHORT_FOLDER_PLUGIN_DESCRIPTION "复制上级目录短路径(&O)"
     IDS_SHORT_FOLDER_PLUGIN_HINT 
-                            "复制文件/文件夹的父目录的短路径到剪切板。"
+                            "将文件/文件夹上级目录的短路径复制到剪切板。"
     IDS_SHORT_UNC_FOLDER_PLUGIN_DESCRIPTION 
-                            "复制 UNC 父&目录短路径"
+                            "复制 UNC 上级目录短路径(&D)"
     IDS_SHORT_UNC_FOLDER_PLUGIN_HINT 
-                            "复制文件/文件夹的父目录的 UNC（网络共享）短路径到剪切板。若不存在网络路径，则复制父目录短路径。"
-    IDS_LONG_UNC_FOLDER_PLUGIN_DESCRIPTION "复制 UNC 父&目录长路径"
+                            "将文件/文件夹上级目录的 UNC（网络共享）短路径复制到剪切板。若不存在网络路径，则复制上级目录短路径。"
+    IDS_LONG_UNC_FOLDER_PLUGIN_DESCRIPTION "复制 UNC 父目录长路径(&E)"
     IDS_LONG_UNC_FOLDER_PLUGIN_HINT 
-                            "复制文件/文件夹的父目录的 UNC（网络共享）长路径到剪切板。若不存在网络路径，则复制父目录长路径。"
+                            "将文件/文件夹上级目录的 UNC（网络共享）长路径复制到剪切板。若不存在网络路径，则复制上级目录长路径。"
     IDS_PCC_SETTINGS_DESCRIPTION "设置..."
     IDS_PCC_SETTINGS_HINT   "打开设置窗口配置此右键菜单。"
     IDS_SETTINGS_APP_FILE_NAME "PathCopyCopySettings.exe"
     IDS_REDUNDANT_WORD_COPY "复制"
-    IDS_ANDROGYNOUS_NAME_PLUGIN_DESCRIPTION "复制&名称"
-    IDS_ANDROGYNOUS_PATH_PLUGIN_DESCRIPTION "复制&路径"
+    IDS_ANDROGYNOUS_NAME_PLUGIN_DESCRIPTION "复制名称(&N)"
+    IDS_ANDROGYNOUS_PATH_PLUGIN_DESCRIPTION "复制路径(&P)"
     IDS_ANDROGYNOUS_UNC_PATH_PLUGIN_DESCRIPTION "复制 &UNC 路径"
-    IDS_ANDROGYNOUS_FOLDER_PLUGIN_DESCRIPTION "复制父&目录路径"
+    IDS_ANDROGYNOUS_FOLDER_PLUGIN_DESCRIPTION "复制上级目录路径(&F)"
 END
 
 STRINGTABLE
 BEGIN
     IDS_ANDROGYNOUS_UNC_FOLDER_PLUGIN_DESCRIPTION 
-                            "复制 UNC 父&目录路径"
+                            "复制 UNC 上级目录路径(&D)"
     IDS_WSL_PATH_PLUGIN_DESCRIPTION "复制 &WSL 路径"
     IDS_WSL_PATH_PLUGIN_HINT 
-                            "复制文件/文件夹的 WSL (Windows Subsystem for Linux) 格式路径到剪切板。"
+                            "将文件/文件夹的 WSL (Windows Subsystem for Linux) 格式路径复制到剪切板。"
     IDS_SAMBA_PATH_PLUGIN_DESCRIPTION "复制 S&amba 路径"
     IDS_SAMBA_PATH_PLUGIN_HINT 
-                            "复制文件/文件夹的 Samba 格式路径到剪切板。"
+                            "将文件/文件夹的 Samba 格式路径复制到剪切板。"
     IDS_MSYS_PATH_PLUGIN_DESCRIPTION "复制 MS&YS/MSYS2 路径"
     IDS_MSYS_PATH_PLUGIN_HINT 
-                            "复制文件/文件夹的 MSYS/MSYS2 格式路径到剪切板。"
+                            "将复制文件/文件夹的 MSYS/MSYS2 格式路径复制到剪切板。"
     IDS_INVALIDPIPELINE     "<< 无效的自定义命令 >>"
     IDS_INVALIDPIPELINE_LOOP_DETECTED 
                             "<< 检测到自定义命令元素存在循环 >>"
     IDS_INVALIDPIPELINE_POSSIBLE_DOWNGRADE 
-                            "<< 无效的自定义命令元素（可能降级） >>"
+                            "<< 无效的自定义命令元素（可能是降级安装所致） >>"
     IDS_INVALIDPIPELINE_BASE_COMMAND_NOT_FOUND "<< 未找到基本命令 >>"
 END
 
@@ -123,7 +123,7 @@ LANGUAGE LANG_FRENCH, SUBLANG_FRENCH_CANADIAN
 #pragma code_page(1252)
 
 /////////////////////////////////////////////////////////////////////////////
-// Chinese (Simplified, PRC) resources
+// Chinese (Simplified) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
 LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
@@ -158,7 +158,7 @@ END
 /////////////////////////////////////////////////////////////////////////////
 
 
-#endif    // Chinese (Simplified, PRC) resources
+#endif    // Chinese (Simplified) resources
 /////////////////////////////////////////////////////////////////////////////
 
 
