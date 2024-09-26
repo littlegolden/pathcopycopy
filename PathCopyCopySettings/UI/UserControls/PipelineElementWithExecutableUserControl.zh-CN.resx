@@ -132,7 +132,7 @@
     <value>0</value>
   </data>
   <data name="ExecutableLbl.Text" xml:space="preserve">
-    <value>E&amp;xecutable:</value>
+    <value>可执行程序(&amp;X):</value>
   </data>
   <data name="&gt;&gt;ExecutableLbl.Name" xml:space="preserve">
     <value>ExecutableLbl</value>
@@ -190,7 +190,7 @@
     <value>2</value>
   </data>
   <data name="BrowseForExecutableBtn.Text" xml:space="preserve">
-    <value>&amp;Browse...</value>
+    <value>浏览(&amp;B)...</value>
   </data>
   <data name="BrowseForExecutableBtn.ToolTip" xml:space="preserve">
     <value>打开对话框并选择要在磁盘上启动的可执行文件。</value>

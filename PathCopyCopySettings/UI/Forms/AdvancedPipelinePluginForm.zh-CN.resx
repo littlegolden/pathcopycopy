@@ -199,7 +199,7 @@
     <value>4</value>
   </data>
   <data name="ElementsLbl.Text" xml:space="preserve">
-    <value>&amp;元素：</value>
+    <value>元素(&amp;E):</value>
   </data>
   <data name="DeleteElementBtn.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -517,7 +517,7 @@
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="NameLbl.Text" xml:space="preserve">
-    <value>&amp;名称：</value>
+    <value>名称(&amp;N):</value>
   </data>
   <data name="ElementsLbl.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 48</value>

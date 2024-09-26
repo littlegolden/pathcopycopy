@@ -190,7 +190,7 @@
     <value>0</value>
   </data>
   <data name="ReplaceLbl.Text" xml:space="preserve">
-    <value>&amp;替换为：</value>
+    <value>替换为(&amp;R):</value>
   </data>
   <data name="DecorationsGroupBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>362, 161</value>
@@ -205,7 +205,7 @@
     <value>OptionsGroupBox</value>
   </data>
   <data name="ForwardToBackslashesRadio.Text" xml:space="preserve">
-    <value>将所有正斜杠 ( / ) 改为&amp;反斜杠 ( \ )</value>
+    <value>将所有正斜杠 ( / ) 改为反斜杠 ( \ ) (&amp;B)</value>
   </data>
   <data name="EncodeURICharsChk.Location" type="System.Drawing.Point, System.Drawing">
     <value>25, 134</value>
@@ -355,7 +355,7 @@
     <value>UnexpandEnvStringsChk</value>
   </data>
   <data name="OptionalQuotesChk.Text" xml:space="preserve">
-    <value>...仅当包含&amp;空格时</value>
+    <value>...仅当包含空格时(&amp;P)</value>
   </data>
   <data name="&gt;&gt;SwitchBtn.Name" xml:space="preserve">
     <value>SwitchBtn</value>
@@ -370,13 +370,13 @@
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="FindLbl.Text" xml:space="preserve">
-    <value>查找 &amp;what:</value>
+    <value>查找内容(&amp;W):</value>
   </data>
   <data name="&gt;&gt;ForwardToBackslashesRadio.Name" xml:space="preserve">
     <value>ForwardToBackslashesRadio</value>
   </data>
   <data name="IgnoreCaseChk.Text" xml:space="preserve">
-    <value>&amp;忽略大小写</value>
+    <value>忽略大小写(&amp;I)</value>
   </data>
   <data name="&gt;&gt;CopyOnSameLineChk.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -424,7 +424,7 @@
     <value>WithFilelistChk</value>
   </data>
   <data name="WithFilelistChk.Text" xml:space="preserve">
-    <value>...并将路径保存在一个文件列表中，而不是&amp;直接传给他们。</value>
+    <value>...并将路径保存在一个文件列表中，而不是直接传给他们(&amp;D)</value>
   </data>
   <data name="BaseCommandLbl.Size" type="System.Drawing.Size, System.Drawing">
     <value>314, 13</value>
@@ -478,7 +478,7 @@
     <value>SlashesGroupBox</value>
   </data>
   <data name="CopyOnSameLineChk.Text" xml:space="preserve">
-    <value>复&amp;制多个路径到同一行</value>
+    <value>复制多个路径到同一行(&amp;Y)</value>
   </data>
   <data name="&gt;&gt;FindReplaceGroupBox.Parent" xml:space="preserve">
     <value>OptionsPage</value>
@@ -508,7 +508,7 @@
     <value>True</value>
   </data>
   <data name="EncodeURIWhitespaceChk.Text" xml:space="preserve">
-    <value>对空&amp;格使用百分号编码（例 %20）</value>
+    <value>对空格使用百分号编码 (如 %20) (&amp;H)</value>
   </data>
   <data name="&gt;&gt;NameLbl.ZOrder" xml:space="preserve">
     <value>6</value>
@@ -592,7 +592,7 @@
     <value>5</value>
   </data>
   <data name="UseRegexChk.Text" xml:space="preserve">
-    <value>使用正&amp;则表达式</value>
+    <value>使用正则表达式(&amp;E)</value>
   </data>
   <data name="&gt;&gt;ExecutableTxt.Parent" xml:space="preserve">
     <value>OptionsGroupBox</value>
@@ -622,7 +622,7 @@
     <value>3</value>
   </data>
   <data name="NoSlashesChangeRadio.Text" xml:space="preserve">
-    <value>不改变&amp;斜杠</value>
+    <value>不改变斜杠(&amp;S)</value>
   </data>
   <data name="ExecutableTxt.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -829,7 +829,7 @@
     <value>6, 173</value>
   </data>
   <data name="TestRegexBtn.Text" xml:space="preserve">
-    <value>&amp;测试...</value>
+    <value>测试(&amp;T)...</value>
   </data>
   <data name="&gt;&gt;OptionalQuotesChk.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -964,7 +964,7 @@
     <value>PipelinePluginForm</value>
   </data>
   <data name="EncodeURICharsChk.Text" xml:space="preserve">
-    <value>...以及&amp;所有无效 URI 字符 (例 %xx)</value>
+    <value>...以及所有无效 URI 字符 (例 %xx) (&amp;V)</value>
   </data>
   <data name="OptionsGroupBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>362, 143</value>
@@ -982,7 +982,7 @@
     <value />
   </data>
   <data name="LaunchExecutableChk.Text" xml:space="preserve">
-    <value>&amp;将路径作为参数启动可执行文件，不复制到剪贴板。</value>
+    <value>将路径作为参数启动可执行文件，不复制到剪贴板(&amp;L)</value>
   </data>
   <data name="RemoveExtChk.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 17</value>
@@ -991,7 +991,7 @@
     <value>138, 17</value>
   </data>
   <data name="ExecutableLbl.Text" xml:space="preserve">
-    <value>可&amp;执行文件：</value>
+    <value>可执行文件(&amp;x):</value>
   </data>
   <data name="&gt;&gt;CopyOnSameLineChk.Name" xml:space="preserve">
     <value>CopyOnSameLineChk</value>
@@ -1033,7 +1033,7 @@
     <value>$this</value>
   </data>
   <data name="BackToForwardSlashesRadio.Text" xml:space="preserve">
-    <value>将所有的反斜杠改为&amp;正斜杠</value>
+    <value>将所有的反斜杠改为正斜杠(&amp;F)</value>
   </data>
   <data name="&gt;&gt;OKBtn.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1114,10 +1114,10 @@
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="RecursiveCopyChk.Text" xml:space="preserve">
-    <value>递&amp;归复制路径</value>
+    <value>递归复制路径(&amp;U)</value>
   </data>
   <data name="QuotesChk.Text" xml:space="preserve">
-    <value>用&amp;引号把路径引起来</value>
+    <value>用引号把路径引起来(&amp;Q)</value>
   </data>
   <data name="&gt;&gt;NameTxt.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1309,10 +1309,10 @@
     <value>True</value>
   </data>
   <data name="NameLbl.Text" xml:space="preserve">
-    <value>&amp;名称：</value>
+    <value>名称(&amp;N):</value>
   </data>
   <data name="RemoveExtChk.Text" xml:space="preserve">
-    <value>移除文件扩展&amp;名</value>
+    <value>移除文件扩展名(&amp;O)</value>
   </data>
   <data name="WithFilelistChk.Size" type="System.Drawing.Size, System.Drawing">
     <value>306, 17</value>
@@ -1327,7 +1327,7 @@
     <value>ExecutableLbl</value>
   </data>
   <data name="UnexpandEnvStringsChk.Text" xml:space="preserve">
-    <value>如果可以，使用环&amp;境变量替换部分路径</value>
+    <value>如果可以，使用环境变量替换部分路径(&amp;N)</value>
   </data>
   <data name="ExecutableTxt.Size" type="System.Drawing.Size, System.Drawing">
     <value>184, 20</value>

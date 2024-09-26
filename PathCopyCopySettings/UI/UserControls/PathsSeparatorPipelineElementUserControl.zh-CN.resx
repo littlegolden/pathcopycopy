@@ -151,7 +151,7 @@
     <value>1</value>
   </data>
   <data name="SeparatorLbl.Text" xml:space="preserve">
-    <value>&amp;Separator:</value>
+    <value>分隔符(&amp;S):</value>
   </data>
   <data name="&gt;&gt;SeparatorLbl.Parent" xml:space="preserve">
     <value>$this</value>

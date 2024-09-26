@@ -382,13 +382,13 @@ Shift + 单击，使此命令使用默认图标。
     <value>用 %20 替换路径中的所有空格字符</value>
   </data>
   <data name="PipelineElement_ExecutableWithFilelist_HelpText" xml:space="preserve">
-    <value>Instead of copying paths to the clipboard, save them to a filelist, then launch an executable on disk, passing the filelist as argument</value>
+    <value>不复制到剪贴板，而是将路径列表保存为文本文件，然后启动磁盘中的可执行程序，并将文本文件作为参数传递给该程序</value>
   </data>
   <data name="PipelineElement_Executable_HelpText" xml:space="preserve">
-    <value>Instead of copying paths to the clipboard, launch an executable on disk, passing the paths as arguments</value>
+    <value>不复制到剪贴板，而是启动磁盘中的可执行程序，并将路径列表作为参数传递给该程序</value>
   </data>
   <data name="PipelineElement_FindReplace_HelpText" xml:space="preserve">
-    <value>Replace every instance of a specific character string in the path with another</value>
+    <value>将路径中出现的所有指定字符串替换为指定内容</value>
   </data>
   <data name="PipelineElement_ForwardToBackslashes_HelpText" xml:space="preserve">
     <value>将路径中的每一个正斜杠 ( / ) 替换为反斜杠 ( / )</value>
@@ -424,16 +424,16 @@ Shift + 单击，使此命令使用默认图标。
     <value>https://github.com/clechasseur/pathcopycopy/blob/default/LICENSE</value>
   </data>
   <data name="PipelineElement_FollowSymlink" xml:space="preserve">
-    <value>Follow Symbolic Link</value>
+    <value>解析符号链接</value>
   </data>
   <data name="PipelineElement_FollowSymlink_HelpText" xml:space="preserve">
-    <value>Replace the path to a symbolic link with the path to its target</value>
+    <value>将符号链接的路径替换为其目标的路径</value>
   </data>
   <data name="PipelineElement_UnexpandEnvStrings" xml:space="preserve">
-    <value>Unexpand Environment Strings</value>
+    <value>展开环境变量字符串</value>
   </data>
   <data name="PipelineElement_UnexpandEnvStrings_HelpText" xml:space="preserve">
-    <value>Replace parts of the path with environment variable references, if possible (like %USERPROFILE%, etc.)</value>
+    <value>如果可能，将路径中出现的环境变量替换为其值 (例如 %USERPROFILE%)。</value>
   </data>
   <data name="PipelineElement_ApplyPipelinePlugin" xml:space="preserve">
     <value>使用基本命令</value>
@@ -445,40 +445,40 @@ Shift + 单击，使此命令使用默认图标。
     <value>（复制）</value>
   </data>
   <data name="PipelineElement_InjectDriveLabel" xml:space="preserve">
-    <value>Inject Drive Label</value>
+    <value>注入磁盘名称</value>
   </data>
   <data name="PipelineElement_InjectDriveLabel_HelpText" xml:space="preserve">
-    <value>Replace all instances of %DRIVELABEL% in the path with the drive's label</value>
+    <value>将路径出现的所有 %DRIVELABEL% 替换为磁盘名称</value>
   </data>
   <data name="PipelineElement_CopyNPathParts" xml:space="preserve">
-    <value>Copy # path parts (from beginning or end)</value>
+    <value>只复制 n 层路径 (从开头/末尾计)</value>
   </data>
   <data name="PipelineElement_CopyNPathParts_HelpText" xml:space="preserve">
-    <value>Keep only a certain number of path parts from the path, either from the beginning or the end</value>
+    <value>只保留路径中特定层数的部分，可以从前往后，也可以从后往前</value>
   </data>
   <data name="PipelineElement_DuplicateStackValue" xml:space="preserve">
-    <value>Duplicate Top Stack Value</value>
+    <value>复制堆栈顶层元素</value>
   </data>
   <data name="PipelineElement_DuplicateStackValue_HelpText" xml:space="preserve">
-    <value>Duplicate the top value on the stack</value>
+    <value>将堆栈最顶层的元素复制一份</value>
   </data>
   <data name="PipelineElement_PopFromStack" xml:space="preserve">
-    <value>Pop Value from Stack</value>
+    <value>从堆栈弹出元素</value>
   </data>
   <data name="PipelineElement_PopFromStack_HelpText" xml:space="preserve">
-    <value>Pop a value from the stack, possibly inserting it somewhere in the path</value>
+    <value>将元素从堆栈弹出，例如插入到路径中的某处</value>
   </data>
   <data name="PipelineElement_PushToStack" xml:space="preserve">
-    <value>Push Value to Stack</value>
+    <value>将元素推入堆栈</value>
   </data>
   <data name="PipelineElement_PushToStack_HelpText" xml:space="preserve">
-    <value>Push a value to the stack, possibly part of the path</value>
+    <value>将一个元素推入堆栈，可以是路径的一部分</value>
   </data>
   <data name="PipelineElement_SwapStackValues" xml:space="preserve">
-    <value>Swap Top Two Stack Values</value>
+    <value>交换堆栈顶层的两个元素</value>
   </data>
   <data name="PipelineElement_SwapStackValues_HelpText" xml:space="preserve">
-    <value>Swap the top two values on the stack</value>
+    <value>交换堆栈最上面的两个元素</value>
   </data>
   <data name="Language_English_DisplayName" xml:space="preserve">
     <value>英语 (English)</value>
@@ -511,7 +511,7 @@ Shift + 单击，使此命令使用默认图标。
     <value>选项：启动命令行</value>
   </data>
   <data name="PipelineElement_CommandLine_HelpText" xml:space="preserve">
-    <value>Instead of copying the paths to the clipboard, launch a command-line (executable &amp; arguments), including the paths in the arguments either directly or via a filelist</value>
+    <value>不复制到剪贴板，而是启动命令行（可执行程序+参数），并将路径列表或列表文件作为参数传递给该程序</value>
   </data>
   <data name="PipelineElement_RecursiveCopy" xml:space="preserve">
     <value>选项：递归复制路径</value>

@@ -124,7 +124,7 @@
     <value>IgnoreCaseChk</value>
   </data>
   <data name="EntireRadio.Text" xml:space="preserve">
-    <value>用它来替换&amp;整个路径</value>
+    <value>用它来替换整个路径(&amp;E)</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="RangeEndTxt.MaxLength" type="System.Int32, mscorlib">
@@ -141,7 +141,7 @@
     <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="EndRadio.Text" xml:space="preserve">
-    <value>在路径末&amp;尾插入数值</value>
+    <value>在路径末尾插入数值(&amp;N)</value>
   </data>
   <data name="RangeBeginTxt.ToolTip" xml:space="preserve">
     <value>Start of range to replace with the popped value</value>
@@ -153,7 +153,7 @@
     <value>295, 87</value>
   </data>
   <data name="TestRegexBtn.Text" xml:space="preserve">
-    <value>&amp;测试...</value>
+    <value>测试(&amp;T)...</value>
   </data>
   <data name="&gt;&gt;EntireRadio.ZOrder" xml:space="preserve">
     <value>11</value>
@@ -252,7 +252,7 @@
     <value>158, 13</value>
   </data>
   <data name="NowhereRadio.Text" xml:space="preserve">
-    <value>只需将其丢弃，&amp;无需储存</value>
+    <value>只需将其丢弃，无需储存(&amp;W)</value>
   </data>
   <data name="RangeEndTxt.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -267,7 +267,7 @@
     <value>打开一个对话框，测试正则表达式</value>
   </data>
   <data name="StartRadio.Text" xml:space="preserve">
-    <value>在路径的&amp;开头插入数值</value>
+    <value>在路径的开头插入数值(&amp;B)</value>
   </data>
   <data name="RangeBeginTxt.Size" type="System.Drawing.Size, System.Drawing">
     <value>27, 20</value>
@@ -303,7 +303,7 @@
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="RangeRadio.Text" xml:space="preserve">
-    <value>替换&amp;位置之间的所有路径</value>
+    <value>替换位置之间的所有路径(&amp;P)</value>
   </data>
   <data name="RangeBeginTxt.Location" type="System.Drawing.Point, System.Drawing">
     <value>264, 38</value>
@@ -321,7 +321,7 @@
     <value>7</value>
   </data>
   <data name="RegexRadio.Text" xml:space="preserve">
-    <value>替换&amp;正则表达式的第一个匹配项</value>
+    <value>替换正则表达式的第一个匹配项(&amp;R)</value>
   </data>
   <data name="&gt;&gt;BeginAndEndLbl.ZOrder" xml:space="preserve">
     <value>8</value>
@@ -502,7 +502,7 @@
     <value>PopFromStackPipelineElementUserControl</value>
   </data>
   <data name="IgnoreCaseChk.Text" xml:space="preserve">
-    <value>&amp;Ignore case</value>
+    <value>忽略大小写(&amp;I)</value>
   </data>
   <data name="&gt;&gt;RegexTxt.Parent" xml:space="preserve">
     <value>$this</value>
